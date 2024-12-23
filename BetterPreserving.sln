@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterPreserving", "BetterPreserving.csproj", "{C776E6A4-93F3-95C7-896A-DD9787325D6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C776E6A4-93F3-95C7-896A-DD9787325D6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C776E6A4-93F3-95C7-896A-DD9787325D6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C776E6A4-93F3-95C7-896A-DD9787325D6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C776E6A4-93F3-95C7-896A-DD9787325D6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59A60026-5AE9-4D46-8EEE-13B81EC660A6}
+	EndGlobalSection
+EndGlobal
