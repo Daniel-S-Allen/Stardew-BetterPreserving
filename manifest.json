@@ -1,10 +1,10 @@
 {
     "Name": "BetterPreserving",
     "Author": "Emissivity",
-    "Version": "1.0.0",
+    "Version": "1.0.1",
     "Description": "Make preserving not painful to use",
     "UniqueID": "emissivity.betterpreserving",
     "EntryDll": "BetterPreserving.dll",
     "MinimumApiVersion": "4.0.0",
-    "UpdateKeys": []
+    "UpdateKeys": ["GitHub:Daniel-S-Allen/Stardew-BetterPreserving"]
   }
