@@ -66,7 +66,11 @@ namespace BetterPreserving
                             item.uses.Value += 1;
                             if (item.uses.Value >= FishingRod.maxTackleUses)
                             {
-                                __instance.attachments[tackleIndex] = null;
+                                item.Stack -= 1;
+                                item.uses.Value = 0;
+                                if (item.Stack <= 0){
+                                    __instance.attachments[tackleIndex] = null;
+                                }
                                 Game1.showGlobalMessage(Game1.content.LoadString("Strings\\StringsFromCSFiles:FishingRod.cs.14086"));
                             }
                         }
